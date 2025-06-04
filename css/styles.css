@@ -221,3 +221,67 @@ body {
     max-width: calc(33.33% - 1.5rem);
   }
 }
+
+
+
+/* Section 3*/
+
+.officials-section {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.official-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.official-photo {
+  max-width: 220px;
+  border-radius: 10px;
+  object-fit: cover;
+  height: auto;
+}
+
+.official-info {
+  text-align: left;
+  max-width: 600px;
+}
+
+.official-info h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #007BFF;
+}
+
+.official-info p {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.official-info a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.official-info a:hover {
+  text-decoration: underline;
+}
