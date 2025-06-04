@@ -1,8 +1,5 @@
 # About_dost1
 
-
-**The Question is what is the frontpage will be**
-
 1. StoryTelling
 about how do they start dost1 
 
@@ -34,3 +31,13 @@ what problem did dost are solving
 ---------------------------------------------------
 | Footer: Contact Info | Social Media | Links      |
 ---------------------------------------------------
+
+
+code structure 
+
+About_dost1/
+├── .html
+├── css/
+│   └── .css
+├── images/
+│   └── .jpg
