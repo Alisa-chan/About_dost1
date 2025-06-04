@@ -1,16 +1,19 @@
 # About_dost1
 
-1. StoryTelling
-about how do they start dost1 
+1. Storytelling
+    About how DOST Region 1 started.
+    Tell the origin story or history of DOST Region 1 — how it began and evolved.
 
-2. Value Proposition 
-what problem did dost are solving 
-/ OR show the key Officials are
-/ possibly show the pictures of they doing? 
+2. Value Proposition
 
-3. Achievements or recognitions  
+What problems is DOST solving?
+    Highlight the key officials involved.
+    Optionally include photos showing them in action or leading initiatives.
 
+3. Achievements or Recognitions
+    Showcase major accomplishments, milestones, or awards received by DOST Region 1.
 
+    
 ---------------------------------------------------
 | Header: Logo | DOST Region 1 | Menu (Home/About) |
 ---------------------------------------------------
