@@ -225,7 +225,6 @@ body {
 
 
 /* Section 3*/
-
 .officials-section {
   background-color: #ffffff;
   padding: 60px 20px;
@@ -237,51 +236,81 @@ body {
   font-weight: bold;
   margin-bottom: 40px;
   color: #333;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.officials-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  gap: 2rem; /* space between cards */
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 .official-card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  background-color: #f9f9f9;
+  background-color: #fff;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  gap: 20px;
-  max-width: 900px;
-  margin: 0 auto;
+  text-align: center;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.official-card:hover {
+  transform: translateY(-5px);
 }
 
 .official-photo {
-  max-width: 220px;
-  border-radius: 10px;
-  object-fit: cover;
+  width: 100%;
+  max-width: 180px;
   height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-.official-info {
-  text-align: left;
-  max-width: 600px;
-}
-
-.official-info h3 {
-  margin: 0;
-  font-size: 1.5rem;
+.official-card h3 {
+  margin: 10px 0 5px;
+  font-size: 1.2rem;
   color: #007BFF;
 }
 
-.official-info p {
-  margin: 0.4rem 0;
+.official-card p {
   font-size: 0.95rem;
-  color: #444;
+  line-height: 1.5;
+  color: #333;
+  margin: 0.3rem 0;
 }
 
-.official-info a {
+.official-card a {
   color: #007BFF;
   text-decoration: none;
+  margin-top: auto; /* pushes link to bottom if card grows */
 }
 
-.official-info a:hover {
+.official-card a:hover {
   text-decoration: underline;
+}
+
+/* Responsive: 2 columns on tablets */
+@media (max-width: 992px) {
+  .officials-container {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 800px;
+  }
+}
+
+/* Responsive: 1 column on phones */
+@media (max-width: 600px) {
+  .officials-container {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
 }
