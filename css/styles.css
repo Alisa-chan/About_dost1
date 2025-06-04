@@ -154,13 +154,13 @@ body {
 
 
 /* Section 2: What We Do */
-.what-we-do {
+.main-page {
   background-color: #f0f2f5;
   padding: 60px 20px;
   text-align: center;
 }
 
-.what-we-do-title {
+.main-page-title {
   font-size: 2rem;
   font-weight: bold;
   color: #333;
@@ -221,6 +221,7 @@ body {
     max-width: calc(33.33% - 1.5rem);
   }
 }
+
 
 
 
